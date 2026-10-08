@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Card } from '@geniusgarage/ui'
 
 export default function Features() {
   return (
@@ -26,61 +27,35 @@ export default function Features() {
           gap: '2rem',
         }}
       >
-        {/* Styles below are intentionally duplicated per card. The next lesson
-            extracts this repetition into @geniusgarage/ui. */}
-        <div style={{ padding: '2rem', border: '1px solid #e5e5e5', borderRadius: '0.75rem', backgroundColor: '#fff' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>⚡</div>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>Fast Search</h3>
-          <p style={{ color: '#666', lineHeight: 1.6 }}>
-            Find any snippet in milliseconds with fuzzy, typo-tolerant search across every language you
-            work in.
-          </p>
-        </div>
+        <Card icon="⚡" title="Fast Search">
+          Find any snippet in milliseconds with fuzzy, typo-tolerant search across every language you
+          work in.
+        </Card>
 
-        <div style={{ padding: '2rem', border: '1px solid #e5e5e5', borderRadius: '0.75rem', backgroundColor: '#fff' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>📁</div>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>Organized</h3>
-          <p style={{ color: '#666', lineHeight: 1.6 }}>
-            Group snippets into collections and tag them so related code stays together and easy to
-            browse.
-          </p>
-        </div>
+        <Card icon="📁" title="Organized">
+          Group snippets into collections and tag them so related code stays together and easy to
+          browse.
+        </Card>
 
-        <div style={{ padding: '2rem', border: '1px solid #e5e5e5', borderRadius: '0.75rem', backgroundColor: '#fff' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🔗</div>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>Shareable</h3>
-          <p style={{ color: '#666', lineHeight: 1.6 }}>
-            Send a link to any snippet and let teammates read it without needing an account or an
-            install.
-          </p>
-        </div>
+        <Card icon="🔗" title="Shareable">
+          Send a link to any snippet and let teammates read it without needing an account or an
+          install.
+        </Card>
 
-        <div style={{ padding: '2rem', border: '1px solid #e5e5e5', borderRadius: '0.75rem', backgroundColor: '#fff' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🎨</div>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>Syntax Highlighting</h3>
-          <p style={{ color: '#666', lineHeight: 1.6 }}>
-            Readable output for every language you save, with themes that match the rest of your
-            editor setup.
-          </p>
-        </div>
+        <Card icon="🎨" title="Syntax Highlighting">
+          Readable output for every language you save, with themes that match the rest of your
+          editor setup.
+        </Card>
 
-        <div style={{ padding: '2rem', border: '1px solid #e5e5e5', borderRadius: '0.75rem', backgroundColor: '#fff' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>📋</div>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>One-Click Copy</h3>
-          <p style={{ color: '#666', lineHeight: 1.6 }}>
-            Copy any snippet to your clipboard in a single click, ready to paste straight into your
-            editor.
-          </p>
-        </div>
+        <Card icon="📋" title="One-Click Copy">
+          Copy any snippet to your clipboard in a single click, ready to paste straight into your
+          editor.
+        </Card>
 
-        <div style={{ padding: '2rem', border: '1px solid #e5e5e5', borderRadius: '0.75rem', backgroundColor: '#fff' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🔐</div>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>Private &amp; Secure</h3>
-          <p style={{ color: '#666', lineHeight: 1.6 }}>
-            Every snippet is private until you explicitly share it. Nothing leaks into a public index
-            by accident.
-          </p>
-        </div>
+        <Card icon="🔐" title="Private &amp; Secure">
+          Every snippet is private until you explicitly share it. Nothing leaks into a public index
+          by accident.
+        </Card>
       </div>
     </main>
   )
