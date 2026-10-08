@@ -1,0 +1,17 @@
+{
+  "name": "@geniusgarage/ui",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "echo \"@geniusgarage/ui: no linter configured\""
+  },
+  "devDependencies": {
+    "@types/react": "^19"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}
