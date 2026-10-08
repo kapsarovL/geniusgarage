@@ -1,11 +1,11 @@
 import type { ReactNode } from 'react'
 
 export type ButtonProps = {
-  children: ReactNode
+  label: string
   onClick?: () => void
 }
 
-export function Button({ children, onClick }: ButtonProps) {
+export function Button({ label, onClick }: ButtonProps) {
   return (
     <button
       onClick={onClick}
@@ -20,7 +20,7 @@ export function Button({ children, onClick }: ButtonProps) {
         color: 'white',
       }}
     >
-      {children}
+      {label}
     </button>
   )
 }

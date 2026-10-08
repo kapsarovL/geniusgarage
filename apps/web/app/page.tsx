@@ -9,7 +9,7 @@ export default function Home() {
           Store your genius code snippets
         </p>
 
-        <Button>Get Started</Button>
+        <Button label="Get Started" />
 
         <p style={{ color: '#666', marginTop: '3rem', fontSize: '0.875rem' }}>
           This is the starter project. You'll build out the full platform as you progress through the course.
