@@ -6,10 +6,12 @@
     ".": "./src/index.ts"
   },
   "scripts": {
+    "build": "tsc --noEmit",
     "lint": "echo \"@geniusgarage/ui: no linter configured\""
   },
   "devDependencies": {
-    "@types/react": "^19"
+    "@types/react": "^19",
+    "typescript": "^5"
   },
   "peerDependencies": {
     "react": "^19.0.0"
