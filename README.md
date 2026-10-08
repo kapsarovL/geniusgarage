@@ -35,7 +35,3 @@ pnpm dev
 - [Turborepo Documentation](https://turbo.build/repo/docs)
 - [pnpm Documentation](https://pnpm.io)
 - [Next.js Documentation](https://nextjs.org/docs)
-
-## Deploy notes
-
-Remote caching demo.
