@@ -15,7 +15,7 @@ importers:
         specifier: ^2.3.3
         version: 2.11.7
 
-  apps/dashboard:
+  apps/snippet-manager:
     dependencies:
       '@geniusgarage/ui':
         specifier: workspace:*

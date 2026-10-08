@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'GeniusGarage Dashboard',
-  description: 'Manage your snippets',
+  title: 'GeniusGarage Snippet Manager',
+  description: 'Your code snippets, organized and ready to use.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
