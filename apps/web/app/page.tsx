@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Button } from '@geniusgarage/ui'
+import { Button } from '@geniusgarage/ui/button'
 
 export default function Home() {
   return (

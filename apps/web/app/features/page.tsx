@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Card } from '@geniusgarage/ui'
+import { Card } from '@geniusgarage/ui/card'
 
 export default function Features() {
   return (
